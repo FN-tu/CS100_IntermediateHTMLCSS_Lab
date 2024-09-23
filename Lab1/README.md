@@ -39,7 +39,8 @@ This file contains the structure we will style using CSS.
 ### Step 2: Setting Up the CSS File
 - In your code editor, create a new file and name it `layout.css`.
 - In the `<head>` section of `index.html`, link the CSS file:
-```css
+```html
+<link rel="stylesheet" href="layout.css">
 ```
 
 - Write a CSS rule in `layout.css` to perform the following:
@@ -48,7 +49,6 @@ This file contains the structure we will style using CSS.
    - Set the `box-sizing` property so that padding and border are included in the width and height.
 ```css
 ```
-
 ---
 ### Step 3: Styling the Page Body
 - Add the following styles to your CSS file under the previous code:
